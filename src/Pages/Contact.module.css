@@ -1,0 +1,57 @@
+.container{
+    background-image: url('https://th.bing.com/th/id/R.75cd93a1e4c232901cb6a5198693af25?rik=LobRPwzYEHGlLg&riu=http%3a%2f%2fwww.baltana.com%2ffiles%2fwallpapers-10%2fGrey-Abstract-Background-Wallpapers-28657.jpg&ehk=jfgqacB%2fMdOxmM3JdoZqm49weaj6t%2fI27tx8Ne31F4A%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+.flex-container{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/833/489/non_2x/black-abstract-background-with-diamond-shape-layers-vector.jpg');
+    margin-top: 70px;
+    margin-left: 150px;
+    /* margin-right: 800px; */
+    padding-top: 50px;
+    padding-bottom: 70px;
+    padding-left: 150px;
+    height: 75%;
+    /* padding-right: 250px; */
+   
+}
+.first-flex {
+    /* margin-top: -110px; */
+    padding: 1rem;
+    margin-top: 15x;
+   margin-right: 150px;
+   margin-left: -100px;
+}
+
+.second-flex{
+    margin-left: -85px;
+    margin-top: 25px;
+}
+.input-box{
+    width: 300px;
+    height: 25px;
+    
+    margin-bottom: 40px;
+    background-color: #f2f4f9;
+}
+textarea{
+    padding: 11px;
+    width: 300px;
+    background-color: #f2f4f9;
+}
+.google-map{
+    z-index: 1000;
+    height: 75%;
+    margin-top: 70px;
+    box-shadow: 0px 0px 2px 0px black;
+}
+.Button{
+    background: linear-gradient(#F7DEA1, #F0C14D);
+    font-weight: 600;
+    font-family: sans-serif;
+    color: white;
+    padding: 5px 30px;
+    margin-left: 33px;
+}

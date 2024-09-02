@@ -1,0 +1,121 @@
+.container_acc {
+  background-image: url("https://images.designtrends.com/wp-content/uploads/2016/03/29115235/Abstract-Plain-White-Wallpaper-.jpg");
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+#signInBorder{
+  border-color: #DDDDDD;
+  margin:50px auto;
+  border: 0.5px solid #DDDDDD;
+  border-radius: 3px;
+  width: 340px;
+  padding-left: 25px;  
+  padding-top: 45px;
+  padding-bottom: 25px;
+  background-color: white;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: -1;
+  border-radius: 3px;
+  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.2); 
+} 
+
+#amazon_acc{
+  width:280px;
+  height:33px;
+  font-size:14px;
+  background: linear-gradient(#F7DEA1, #F0C14D);
+  border: 0.5px solid #aaaaaa;
+  border-radius:3px;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+#amazon_acc:hover{
+  background: linear-gradient(#F5D68A, #EEBA36);
+}
+
+#input_acc{
+  border-left-color: #DDDDDD;
+  border-right-color: #DDDDDD;
+  border-radius: 3px;
+  border-width: 0.2px;
+  height: 25px;
+  width: 290px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+#input_acc:focus{
+  -webkit-box-shadow: 0px 0px 1.5px 1.5px rgba(231,118,0,0.9);
+  -moz-box-shadow: 0px 0px 1.5px 1.5px rgba(231,118,0,0.9);
+  box-shadow: 0px 0px 1.5px 1.5px rgba(231,118,0,0.9);
+  outline:0;
+}
+  
+input:focus{
+  -webkit-box-shadow: 0px 0px 1.5px 1.5px rgba(231,118,0,0.9);
+  -moz-box-shadow: 0px 0px 1.5px 1.5px rgba(231,118,0,0.9);
+  box-shadow: 0px 0px 1.5px 1.5px rgba(231,118,0,0.9);
+  outline:0;
+}
+  
+#SignInTxt{
+  margin-top: 80px;
+  margin-right: 550px;
+  margin-left: 550px;
+  text-align: center;
+  font-family: cursive;
+  background-color: #fcd34d;
+  padding: 10px;
+  font-size: 26.5px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  animation: jump 0.5s infinite alternate;
+}
+
+@keyframes jump {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+.label_acc {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.butt_acc:link{
+  font-size: 12px;
+  margin: 0 10px 0px 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #000
+}
+
+.butt_acc:hover
+{
+text-decoration: underline;
+color: red;
+}
+
+.butt_acc:visited{
+color: #0066c0;
+}
+.link_acc{
+  display: inline-flex;
+  justify-content: space-around;
+  font-size: 13px;
+  margin-left: 13px;
+}
+.link_acc:hover{
+  text-decoration: underline;
+  color: red;
+}
+

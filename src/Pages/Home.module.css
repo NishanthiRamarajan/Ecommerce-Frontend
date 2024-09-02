@@ -1,0 +1,245 @@
+html{
+    margin: 0;
+    padding: 0;
+    background-color:  #f2f4f9;
+}
+
+.Container{
+    overflow-x: hidden;
+}
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 3px 10px; 
+    height: 55px;
+}
+.logo img{
+    margin-top: 2px;
+    margin-left: 15px;
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+}
+.nav-ele{
+    display: flex;
+    text-decoration: none;
+    /* color: #fff; */
+    font-weight: bolder;
+}
+.nav-ele a {
+    margin-right: 20px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.nav-ele a:hover {
+    color: white;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+.search-bar {
+    display: flex;
+    position: relative;
+    margin-top: 11px; 
+    margin-bottom: 10px;
+}
+
+.search-bar select,
+.search-bar .input_home[type="text"],
+.search-bar button {
+    margin: 0; 
+}
+
+.search-bar select{
+    border: none;
+    padding: 8px auto;
+    height: 42px;
+    background-color: #f2f4f9;
+    z-index: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.search-bar .input_home[type="text"] {
+    padding: 8px;
+    border: 1px solid black;
+    border-style: none;
+    margin-left: 0px;
+    width: 550px;
+    height:42px;
+    border-radius: 0px;
+}
+
+.search-bar select:focus {
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 3px 3px #fb923c;
+}
+
+.search-bar .input_home[type="text"]:focus {
+    outline: none;
+    z-index: 1;
+    box-shadow: 0px 0px 3px 3px #fb923c;
+}
+.search-bar .button_home {
+    padding: 8px 15px;
+    height: 42px;
+    background-color:#fb923c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar .button_home:hover{
+    background-color: #f97316;
+} 
+
+.login button{
+    border-radius: 50%;
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    transition: transform 0.2s ease;
+}
+.search-bar button .MuiSvgIcon-root {
+    color: black; 
+}
+.search-bar button:hover .MuiSvgIcon-root {
+    color: white; 
+}
+
+.login button:hover .MuiSvgIcon-root {
+    color: white;
+    transform: scale(1.1);
+}
+
+.col-wrap {
+    display: flex;
+    align-items: center;
+}
+.Decoration{
+    background-color: white;
+    border: 1px solid;
+    border-style: none;
+    padding: 50px 30px;
+    margin: 50px auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pic1 {
+    display: block;
+    height: 250px;
+    width: 250px;
+}
+
+.Decoration .tag_home{
+    text-decoration: none;
+    color: #14b8a6;
+}
+.Decoration .tag_home:hover{
+    text-decoration: dashed;
+    color: #f43f5e;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+.card {
+    width: 16rem;
+    height: 17rem;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    color: black;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: opacity .2s ease-out;
+}
+
+.card:hover img {
+    opacity: 0.7;
+    filter: brightness(0.5);
+    transition: opacity .3s ease-in;
+}
+
+.card h2,
+.card p,
+.card a {
+    position: absolute;
+    opacity: 0;
+    max-width: 80%;
+    color: white;
+    transition: opacity .3s ease-out, color .3s ease-out;
+}
+
+.card:hover h2,
+.card:hover p,
+.card:hover a {
+    opacity: 1;
+    transition: opacity .5s .1s ease-in, color .5s .1s ease-in;
+}
+
+.card:hover h2 {
+    inset: auto auto 220px 30px;
+    transition: inset .3s ease-out, color .3s ease-out;
+}
+
+.card:hover p,
+.card:hover a {
+    opacity: 1;
+    transition: opacity .5s .1s ease-in, color .5s .1s ease-in;
+}
+
+.card h2 {
+    inset: auto 30px auto 30px; /* Controls the positioning of h2 */
+    bottom: 60%;
+    margin: 0;
+    max-width: 80%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.card p {
+    inset: 55px auto auto 30px; /* Controls the positioning of p */
+    bottom: 50%;
+}
+
+.card a {
+    inset: 200px 30px auto 40px; /* Controls the positioning of a */
+    bottom: 50%;
+    color: white;
+    text-decoration: none;
+}
+
+.card:hover h2,
+.card:hover p,
+.card:hover a {
+    opacity: 1;
+    transition: opacity .5s .3s ease-in, color .5s .3s ease-in; 
+}

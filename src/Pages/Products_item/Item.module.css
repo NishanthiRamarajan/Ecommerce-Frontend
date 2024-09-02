@@ -1,0 +1,81 @@
+
+  :root {
+    --soft-color: rgba(0, 0, 0, 0.5);
+    --softer-color: rgba(0, 0, 0, 0.2);
+    --color-primary: rgb(0 216 255);
+    --color-waring: green;
+    --color-white: #fff;
+    --color-danger: #ff0000;
+  }
+  
+  /* .Container {
+    overflow-x: hidden;
+  }
+   */
+  .NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 3px 10px;
+    height: 55px;
+  }
+  
+  .logo img {
+    margin-top: 2px;
+    margin-left: 15px;
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+  }
+  
+  .nav-ele {
+    display: flex;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  
+  .nav-ele a {
+    margin-right: 20px;
+    margin-top: 5px;
+    font-size: 15px;
+   
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+  }
+  
+  .nav-ele a:hover {
+    color: white;
+    text-decoration: none;
+    transform: scale(1.1);
+  }
+  
+  .login button {
+    border-radius: 50%;
+    margin-left: 720px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    transition: transform 0.2s ease;
+  }
+  
+  .login button:hover .MuiSvgIcon-root {
+    color: white;
+    transform: scale(1.1);
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .nav{
+    display: flex;
+    background-color: silver;
+  }
+  /* .search-bar{
+    margin-left: 900px;
+  } */
+
+  .Button_cart{
+    padding-top: 10px;
+    margin-left: 200px;
+  } 

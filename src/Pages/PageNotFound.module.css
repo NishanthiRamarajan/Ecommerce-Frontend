@@ -1,0 +1,30 @@
+.Error{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    width: 900px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 115px;
+}
+
+.main_p{
+    font-size: 40px;
+  display: flex;
+  margin-top: -100px;
+  margin-left: -100px;
+  font-weight: bold;
+}
+
+.highlight{
+    color: black;
+    margin-bottom: -150px;
+    margin-left: -250px;
+    font-size: 30px;
+    font-weight: 400;
+}
